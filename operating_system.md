@@ -50,6 +50,7 @@ Most user programs do not directly issue system calls (except for asm programs, 
 
 The kernel usually defines a few abstractions like files, processes, sockets, directories, etc. which correspond to an internal state it remembers about last operations, so that a program may issue a session of operation more efficiently.
 
+
 **Types of Kernels:**
 
 - [ ] **Monolithic Kernel** – A large kernel where all OS services, including memory management, process scheduling, and device drivers, run in a single address space (*e.g., Linux, UNIX*).
@@ -203,7 +204,10 @@ For the full list of commands, you can view or download the [Linux Commands](htt
 `` cd - ``: Takes you to the previous working directory
 
 
+
+
 ### Linux File Hierarchy Structure:
+
 
 Files and directories in Linux are organized in a single rooted tree structure (``/``).
 
@@ -216,6 +220,7 @@ Paths are delimited by ``/``.
 **Home Directory (``~``):** Each user has their own ``home`` directory, represented as ``~``.
 
 *Example: ``/home/username`` is the home directory for the user ``username``, and ``/root`` is the home directory for the ``root`` user.*
+
 
 
 ### Common Directories in Linux:
